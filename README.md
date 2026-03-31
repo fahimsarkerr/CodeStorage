@@ -22,4 +22,9 @@ dependencies {
   implementation("androidx.navigation:navigation-fragment:$nav_version")
   implementation("androidx.navigation:navigation-ui:$nav_version")
 }
+
+import kotlinx.serialization.Serializable
+import androidx.navigation.compose.NavHost
+import androidx.navigation.compose.composable
+import androidx.navigation.compose.rememberNavController
 ```
