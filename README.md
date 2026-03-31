@@ -1,6 +1,7 @@
 # CodeStorage
 
 ## For Navigation
+https://developer.android.com/jetpack/androidx/releases/navigation
 ```
 plugins {
   // Kotlin serialization plugin for type safe routes and navigation arguments
@@ -27,4 +28,12 @@ import kotlinx.serialization.Serializable
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
+```
+## For Preferences DataStore
+https://developer.android.com/jetpack/androidx/releases/datastore
+```
+    dependencies {
+        // Preferences DataStore (SharedPreferences like APIs)
+        implementation("androidx.datastore:datastore-preferences:1.2.1")
+    }
 ```
